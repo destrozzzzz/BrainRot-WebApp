@@ -1,7 +1,4 @@
 package com.BrainrotWebApp.BrainRotBackend.Entities;
-
-// AppUsage.java
-
 import java.time.*;
 import jakarta.persistence.*;
 import lombok.*;

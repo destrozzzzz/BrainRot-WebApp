@@ -1,5 +1,4 @@
 package com.BrainrotWebApp.BrainRotBackend.Entities;
-// AppCategory.java
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -20,7 +19,7 @@ public class AppCategory {
     @Builder.Default
     private Double productivityWeight = 1.0;
 
-    private String colorCode;   // HEX
+    private String colorCode;   // Hexadecimal format is recorded for color
 
     private String iconName;
 
